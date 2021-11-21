@@ -21,7 +21,6 @@ refs.feedbackTextarea.addEventListener('input', throttle(onFormInput, 500));
 
 function onFormSubmit(e) {
   e.preventDefault();
-
   refs.feedbackInput.value = '';
   refs.feedbackTextarea.value = '';
   console.log(dataUser);
